@@ -4,7 +4,7 @@
 
 # Setup
 
-This is a basic Parcel app. To install it, you need to just run:
+This is a basic Parcel app. To set it up, you need to just run:
 ```cmd
 npm install
 ```
@@ -18,7 +18,7 @@ npm run build
 ```
 The bulid command will build the project to `/dist` directory.
 
-(Also, if you're testing the built vite project in WebStorm, you might want
+(Also, if you're testing the built project in WebStorm, you might want
 to run `npm run build-for-webstorm` to build the project accessible for the
 *WebStorm debug HTML document view* to open it).
 
