@@ -1,0 +1,20 @@
+{
+  "name": "jetbrains-task-css",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "^1.98.0"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "build-for-webstorm": "parcel build index.html --public-url /jetbrains-task-css/dist"
+  }
+}

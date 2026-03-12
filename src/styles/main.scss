@@ -1,0 +1,25 @@
+@use "variables";
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 40px;
+  color: variables.$text;
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+.button {
+  background: variables.$primary;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
